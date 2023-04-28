@@ -1,0 +1,6 @@
+   1 nano fullscript.sh 
+   2 chmod +x fullscript.sh 
+   3 ./fullscript.sh 
+   4 cat /tmp/test/mydate.txt 
+   5 export_file fullscript.sh
+   6 history > history24_04.txt

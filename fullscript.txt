@@ -1,0 +1,8 @@
+#!/bin/bash -u
+echo "Hello Student!"
+echo "Введите Ваше имя:"
+read username
+echo "Wellcome to terminal, $username"
+mkdir -p /tmp/test
+date +"%H_%M:%S" > /tmp/test/mydate.txt
+echo "Сохраняем данные"
